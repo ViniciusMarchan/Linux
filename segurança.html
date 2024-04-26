@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>LinuxMint</title>
+</head>
+<body>
+
+    <div id="area-cabecalho">
+
+       <div id="area-logo"> 
+        <h1> Linux<span class="branco">Mint</span> </h1>
+    </div>
+        <div id="area-menu"></div>
+            <a href="index.html">Home</a>
+            <a href="historia.html">História</a>
+            <a href="suporte.html">Comunidade/Suporte</a>
+            <a href="arquitetura.html">Arquitetura/Portabilidade</a>
+            <a href="aplicações.html">Aplicações</a>
+            <a href="segurança.html">Segurança/Atualizações</a>
+            <a href="disponibilidade.html">Disponibilidade/Opções</a>
+    </div>
+
+    <div id="area-principal">
+
+        <div id="area-postagens">
+            <!-- Abertura Postagem -->
+            <div class="postagem">
+                <h2>Segurança</h2> 
+              <span class="data-postagem">  Acessado: 26/04/2024 </span>
+              <img src="imgs/security.webp">
+
+              <i><p>Mesmo que você conheça um software específico e seu desenvolvedor, você não pode ter certeza de que não está baixando um arquivo executável que foi trocado por algum tipo de malware desenvolvido por um terceiro mal-intencionado.</p></i>
+              <br>
+              <p>⦁	Além das medidas de segurança habituais postas em prática pelas instituições que possuem os servidores (normalmente prestigiadas instituições acadêmicas ou de pesquisa, além de grandes empresas), o repositório e os próprios pacotes são garantidos por certificados e chaves GPG. Se algo estiver errado, seu gerenciador de pacotes irá lhe informar. O presente autor deste tutorial, em dez anos de uso do Linux, nunca soube de qualquer coisa conhecida que tenha dado errado neste aspecto.</p>
+            <br>
+            <hr>
+            <p><i>É difícil ou impossível saber como este software interagirá com outros softwares instalados em seu sistema</i></p>
+            <br>
+            <p>⦁	Da mesma forma, os mantenedores de pacotes dão o seu melhor para garantir que os pacotes não vão entrar em conflito com outros pacotes oferecidos pela sua distribuição. Claro, eles podem não ter todo os últimos pacotes instalados em suas máquinas de teste (na verdade, geralmente mantenedores de pacotes constroem seus pacotes em instalações limpas, para garantir que eles estão no padrão), mas se um membro da comunidade de usuários descobre que há um problema, ele, sem dúvida, deixará a equipe de distribuição sabendo. Assim, a falha será corrigida ou, pelo menos, abordada e trabalhada. A menos que você seja um beta-tester, é improvável que você já tenha visto um conflito destes porque é para isso que o teste beta existe.</p>
+            <br>
+            <hr>
+            <p><i>Pacotes estáticos são grandes e grosseiros</i></p>
+            <br>
+            <p>⦁	Por estar usando o gerenciamento de pacotes, você só terá que baixar bibliotecas estáticas quando não há alternativas compartilhadas. Se precisar de novas bibliotecas de dados compartilhadas para instalar um determinado programa, seu gerenciador de pacotes vai saber disso, instalando-as automaticamente para você. Só será necessário baixar uma biblioteca compartilhada uma vez, porque... bem... ela é compartilhada por todos os programas que precisam dele.  Se remover o último pacote que precisa de uma biblioteca compartilhada, em seguida o software de gerenciamento de pacotes a removerá também. Mas se você decidir que quer manter o objeto compartilhado de qualquer maneira (por exemplo porque você sabe se vai precisar dele mais tarde), então você pode ordenar ao software de gerenciamento de pacotes que também faça isso.
+            </p>
+               <a href="https://www.linuxmint.com/documentation/user-guide/Cinnamon/portuguese_brazil_18.0.pdf">Site utilizado: Guia Oficial do Usuário</a>
+            </div>
+
+            <div class="postagem">
+                <h2>Atualizações - versão 21.3</h2> 
+              <span class="data-postagem">  Acessado: 26/04/2024 </span>
+              <img src="imgs/mint.png">
+
+              <p>Uma das grandes novidades dessa edição do Linux Mint é o retorno do suporte ao Secure Boot, algo que foi perdido na versão 21.2 devido a um bug nas ferramentas de assinatura do Ubuntu. Felizmente, a correção ficou pronta a tempo para este lançamento, agora está fácil de fazer dual boot com Windows.</p>
+              <br>
+              <p>Por baixo do capô, o Linux Mint 21.3 apresenta o kernel Linux 5.15, Suíte MESA 23.04 e, embora o X.Org seja o servidor gráfico padrão, iniciou-se o suporte ao Wayland, que pode ser acessado de forma experimental, ainda com muitos bugs.</p>
+              <br>
+              <p>A compatibilização ao Wayland envolve modificar a interface gráfica padrão, o Cinnamon, que também é mantido pela mesma equipe de desenvolvimento. Na versão 6.0, que chegou junto ao último Mint, houve muito trabalho nesse sentido, ainda assim, não há data para o Wayland se tornar o novo padrão para o sistema.</p>
+            
+               <a href="https://diolinux.com.br/sistemas-operacionais/linux-mint/testamos-linux-mint-21-3-wayland.html#:~:text=O%20Linux%20Mint%2021.3%20segue,%2C%20por%20enquanto%2C%20%C3%A9%20esta.">Site utilizado: diolinux</a>
+            </div>
+            <!-- Fechamento Postagem -->
+           
+        </div>
+
+        <div id="area-lateral">
+
+            <div class="conteudo-lateral">
+                <h3>Outras coisas do Mint</h3>
+
+                <div class="postagem-lateral">
+                   <p> Esta imagem vem com um kernel mais recente para poder suportar os chipsets...</p>
+                   <a href="disponibilidade.html">Leia mais</a>
+            </div>
+
+            <div class="postagem-lateral" style="border-bottom: none;">
+                <p> o Linux Mint também começou a desenvolver soluções de distribuição cruzada...</p>
+                <a href="historia.html">Leia mais</a>
+         </div>
+
+        </div> 
+
+
+        <div class="conteudo-lateral">
+            <h3>Categorias</h3>
+
+            <a href="index.html">Home</a><br>
+            <a href="historia.html">História</a><br>
+            <a href="suporte.html">Comunidade/Suporte</a><br>
+            <a href="arquitetura.html">Arquitetura/Portabilidade</a><br>
+            <a href="aplicações.html">Aplicações</a><br>
+            <a href="segurança.html">Segurança/Atualizações</a><br>
+            <a href="disponibilidade.html">Disponibilidade/Opções</a><br>
+
+    </div> 
+    
+    </div>
+
+    <div id="rodape">
+        Created by Vinicius
+        </div>
+    
+</body>
+</html>
